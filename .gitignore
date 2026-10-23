@@ -2,3 +2,6 @@ sim
 simv
 sim_faulty
 *.vcd
+sim_check
+sim_sky130
+sim_synth
