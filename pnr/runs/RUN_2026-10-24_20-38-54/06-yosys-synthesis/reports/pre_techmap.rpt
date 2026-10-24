@@ -1,0 +1,33 @@
+87. Printing statistics.
+
+=== mult_array ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       91 wires
+      113 wire bits
+       15 public wires
+       37 public wire bits
+        5 ports
+       18 port bits
+      100 cells
+       28   $_ANDNOT_
+       15   $_AND_
+       16   $_DFF_PN0_
+        6   $_NAND_
+        4   $_NOR_
+        4   $_NOT_
+        7   $_OR_
+        4   $_XNOR_
+       16   $_XOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DFF_PN0_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
