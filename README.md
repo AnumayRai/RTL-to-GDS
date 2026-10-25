@@ -78,10 +78,20 @@ $$
 P=56=00111000_2
 $$
 
+The hand-worked solution (using Anumay Rai's roll number 2025122013: last digit 3, so A = 3 + 5 = 8) is stored in:
+
+- `report/8-7Multiply.pdf`
+
 The waveform evidence for this example is stored in:
 
 - `report/multiplier_waveform_8x7_cursor1.png`
 - `report/multiplier_waveform_8x7_cursor2.png`
+
+### Block Diagram
+
+The block diagram showing the 16 AND gates, 12 full adders and the input/output registers is stored in:
+
+- `report/Structural 4-Bit Unsigned Array Multiplier Model.drawio.svg`
 
 The testbench applies inputs at a falling clock edge and checks the output after two rising clock edges. The first rising edge registers the inputs, and the next rising edge registers the corresponding product.
 
@@ -366,6 +376,10 @@ The table reports timing metrics only. DRC and LVS claims are restricted to the 
 
 The final 7.5 ns implementation, GDSII output, saved metrics, and layout screenshots are available. The reported signoff results show zero setup violations, zero routing DRC errors, and zero LVS errors.
 
+## Final Report
+
+The consolidated report is `report/report.pdf`. It contains the completed results tables for Parts B, C and D, the waveform, hand-worked example and block diagram for Part A, both layout screenshots, the record of all physical-design runs, and the answers to Questions 1–6.
+
 ## Final Project Status
 
 | Stage | Status |
@@ -375,4 +389,4 @@ The final 7.5 ns implementation, GDSII output, saved metrics, and layout screens
 | Part C: Static timing analysis | Completed |
 | Part D: Physical design and GDSII generation | Completed |
 | README documentation | Updated in this version |
-| Final consolidated PDF report | Separate deliverable; must be verified at `report/report.pdf` |
+| Final consolidated PDF report | Completed: `report/report.pdf` |
