@@ -12,3 +12,8 @@ pnr/*backup*.json
 pnr/*before_final*
 report/old_reports/
 report/*before_final*
+sta/*.backup
+collect_part_d_evidence.sh
+RTL_to_GDS.pdf
+report/*(1).png
+pnr/config_before_*
