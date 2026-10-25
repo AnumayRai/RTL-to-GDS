@@ -5,3 +5,10 @@ sim_faulty
 sim_check
 sim_sky130
 sim_synth
+pnr/runs/
+
+# Local backups and temporary report files
+pnr/*backup*.json
+pnr/*before_final*
+report/old_reports/
+report/*before_final*
